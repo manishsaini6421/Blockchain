@@ -1,0 +1,42 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "dev-peer": "cross-env GENERATE_PEER_PORT='true' nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "14": "^3.1.6",
+    "axios": "^1.5.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "hex-to-binary": "^1.0.1",
+    "ipfs": "^0.66.1",
+    "ipfs-core": "^0.18.1",
+    "ipfs-http-client": "^60.0.1",
+    "multer": "^1.4.5-lts.1",
+    "redis": "^2.8.0",
+    "request": "^2.88.0",
+    "stable": "^0.1.8"
+  },
+  "devDependencies": {
+    "cross-env": "^5.2.0",
+    "nodemon": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manishsaini6421/Blockchain.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manishsaini6421/Blockchain/issues"
+  },
+  "homepage": "https://github.com/manishsaini6421/Blockchain#readme"
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate Upload Success</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff; /* White background color */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .container {
+      padding: 20px;
+      width: 100%;
+      max-width: 400px;
+      background-color: #fff; /* White background color */
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+    h1, p {
+      color: #000; /* Black text color */
+      font-size: 20px;
+      font-weight: bold;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: #00a000; /* Green heading color */
+    }
+    p {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .unique-code {
+      font-size: 36px;
+      font-weight: bold;
+      color: #ff0000; /* Red code color */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Certificate Uploaded Successfully</h1>
+    <p>Your unique code:</p>
+    <p class="unique-code"><%= uniqueCode %></p>
+  </div>
+</body>
+</html>
+
